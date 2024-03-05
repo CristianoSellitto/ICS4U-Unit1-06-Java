@@ -75,7 +75,7 @@ final class MeanMedian {
         // Check if input is valid
         try {
             // Find number of lines in the file
-            final String fileName = "file.txt";
+            final String fileName = args[0];
             final BufferedReader reader = new BufferedReader(
                                     new FileReader(fileName)
             );
